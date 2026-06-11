@@ -1,0 +1,17 @@
+commit 5185b042fcb6485ec7db83721dea63310160cdaa
+Author: fennInc <importantepapys@gmail.com>
+Date:   Thu Jun 11 16:11:00 2026 -0300
+
+    adicionada descricao do projeto
+
+commit d92f00656896acf522f43c5ff61483b0cf37065b
+Author: FennInc <importantepapys@gmail.com>
+Date:   Thu Jun 11 16:07:40 2026 -0300
+
+    adicionada sobre mim
+
+commit a3b5fed5e457e8869eaa116370ebedc9fd57f4f4
+Author: fennInc <importantepapys@gmail.com>
+Date:   Thu Jun 11 16:06:20 2026 -0300
+
+    adicionando README
