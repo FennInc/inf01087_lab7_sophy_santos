@@ -15,3 +15,169 @@ Author: fennInc <importantepapys@gmail.com>
 Date:   Thu Jun 11 16:06:20 2026 -0300
 
     adicionando README
+
+==============================================================
+
+terminal:
+
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git init
+Initialized empty Git repository in C:/Users/binar/OneDrive/Documentos/9- trabalhos/inf01087_lab7_sophy_santos/.git/
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git add *
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git commit -m "adicionando README"
+[master (root-commit) a3b5fed] adicionando README
+ 1 file changed, 4 insertions(+)
+ create mode 100644 README.md
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git remote add origin git@github.com:FennInc/inf01087_lab7_sophy_santos.git
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git branch -M main
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes | 164.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:FennInc/inf01087_lab7_sophy_santos.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 949 bytes | 0 bytes/s, done.
+From github.com:FennInc/inf01087_lab7_sophy_santos
+   a3b5fed..d92f006  main       -> origin/main
+Updating a3b5fed..d92f006
+Fast-forward
+ README.md | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git switch -c descricao-projeto
+Switched to a new branch 'descricao-projeto'
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git add *
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git commit -m "adicionada descricao do projeto"
+[descricao-projeto 5185b04] adicionada descricao do projeto
+ 1 file changed, 3 insertions(+)
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git push -u origin descricao-projeto
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 313 bytes | 78.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'descricao-projeto' on GitHub by visiting:
+remote:      https://github.com/FennInc/inf01087_lab7_sophy_santos/pull/new/descricao-projeto
+remote:
+To github.com:FennInc/inf01087_lab7_sophy_santos.git
+ * [new branch]      descricao-projeto -> descricao-projeto
+branch 'descricao-projeto' set up to track 'origin/descricao-projeto'.
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git merge descricao-projetos
+merge: descricao-projetos - not something we can merge
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git switch descricao-projeto
+Switched to branch 'descricao-projeto'
+Your branch is up to date with 'origin/descricao-projeto'.
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git status
+On branch descricao-projeto
+Your branch is up to date with 'origin/descricao-projeto'.
+
+nothing to commit, working tree clean
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git merge descricao-projeto
+Updating d92f006..5185b04
+Fast-forward
+ README.md | 3 +++
+ 1 file changed, 3 insertions(+)
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git add *
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git commit -m "descricao do projeto merged with main"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git push -u origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:FennInc/inf01087_lab7_sophy_santos.git
+   d92f006..5185b04  main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git log > historico.txt
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git log --oneline --graph --all > historico_grafico.txt
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        historico.png
+        historico.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git add *
+warning: in the working copy of 'historico.txt', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git commit -m "finalizando"
+[main 2ffd5d9] finalizando
+ 2 files changed, 17 insertions(+)
+ create mode 100644 historico.png
+ create mode 100644 historico.txt
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 15.03 KiB | 699.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:FennInc/inf01087_lab7_sophy_santos.git
+   5185b04..2ffd5d9  main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\binar\OneDrive\Documentos\9- trabalhos\inf01087_lab7_sophy_santos>
